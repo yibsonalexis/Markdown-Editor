@@ -40,3 +40,9 @@ This is a regular stripped down [Create React App](https://create-react-app.dev)
 
 To submit your solution please create a **private** repository on GitHub, upload your code, and
 invite [@mrloh](https://github.com/mrloh/) as a collaborator.
+
+---
+
+## Challenge Finished
+
+![Screenshot](preview.jpg)
