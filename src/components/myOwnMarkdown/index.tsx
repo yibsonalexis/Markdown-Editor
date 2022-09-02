@@ -1,0 +1,1 @@
+export { MyOwnMarkdown } from './myOwnMarkdown';

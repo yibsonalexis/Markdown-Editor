@@ -1,7 +1,11 @@
+import { MarkdownWithPackage } from './components/markdownWithPackage';
+import { MyOwnMarkdown } from './components/myOwnMarkdown';
+
 function App() {
   return (
-    <div>
-      <textarea onChange={(e) => console.log(e.target.value)} rows={5} />
+    <div data-testid="app">
+      <MyOwnMarkdown />
+      <MarkdownWithPackage />
     </div>
   );
 }

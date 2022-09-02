@@ -1,0 +1,10 @@
+.container {
+    background-color: cadetblue;
+    margin: 0;
+    padding: 2px;
+}
+.title{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}

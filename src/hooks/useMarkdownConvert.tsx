@@ -31,8 +31,9 @@ export function useMarkdownConvert() {
         deleteMarkdownKeyFromText(markdownKey, line),
       );
     });
-    setMarkdownConverted(textArrayMap.join(''));
-    return textArrayMap.join();
+    const result = textArrayMap.join('');
+    setMarkdownConverted(result);
+    return result;
   }, []);
 
   return { convertMarkdownToHTML, markdownConverted };
