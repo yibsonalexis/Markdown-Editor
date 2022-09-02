@@ -47,5 +47,8 @@
     "endOfLine": "auto",
     "quoteProps": "consistent",
     "printWidth": 100
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^8.0.1"
   }
 }
